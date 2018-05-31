@@ -124,6 +124,20 @@ login_type: http_post
 default creds: root:, root:root, root:password
 default path: /index.php?db=&table=&server=1&target=
 
+Category: ATEN KVM
+Identifier: ATEN International
+invalid_identifier: Invalid Username or Password
+login_type: http_post
+default creds: administrator:password
+default path: index.htm
+
+Category: Lantronix SLC
+Identifier: lantronix.com
+invalid_identifier: Invalid login
+login_type: http_post
+default creds: sysadmin:PASS
+default path: /
+
 ###URL List###
 /login
 /admin
